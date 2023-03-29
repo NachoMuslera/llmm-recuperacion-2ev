@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: lightgray;
+    padding: 20px;
+    gap: 20px;
+    min-height: 300px;
+
+    /* Flex: */
+
+}
+
+.item {
+    background-color: rgb(73, 73, 73);
+    padding: 20px;
+    min-height: 50px;
+    width: 100%;
+    max-width: 100px;
+}
+
+.item:nth-child(2n+1) {
+    /* Flex */
+}
+
+.item:nth-child(4) {
+    /* Flex: */
+}
+
+@media(max-width:600px) {
+    #container {
+        /* Flex: */
+    }
+
+    .item {
+        max-width: none;
+    }
+
+}

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: lightgray;
+    padding: 20px;
+    gap: 20px;
+
+    /* Grid: */
+
+}
+
+
+
+.item:nth-child(1) {
+    background-color: aqua;
+    height: 80px;
+    /* Grid: */
+}
+
+.item:nth-child(2) {
+    background-color: hotpink;
+    /* Grid: */
+}
+
+.item:nth-child(3) {
+    background-color: aquamarine;
+    /* Grid: */
+}
+
+.item:nth-child(4) {
+    background-color: salmon;
+    /* Grid: */
+}
